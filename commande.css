@@ -15,6 +15,13 @@ h1 {
     text-align: center;
     color: #f44f08;
 }
+.git{
+    color: white;
+
+}
+a ::after{
+    background-color: #f44f08;
+}
 
 form {
     display: flex;

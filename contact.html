@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu - Restaurant à Pizza</title>
+    <title>Contact - Restaurant à Pizza</title>
     <link rel="stylesheet" href="accueil.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -30,32 +30,36 @@
     </header>
     <main>
         <section>
-            <h2>Notre Sélection de Pizzas</h2>
-            <div class="pizza-item">
-                <h3>Pizza Margherita</h3>
-                <p>Tomates, mozzarella, basilic</p>
-            </div>
-            <div class="pizza-item">
-                <h3>Pizza Pepperoni</h3>
-                <p>Sauce tomate, pepperoni, mozzarella</p>
-            </div>
-            <div class="pizza-item">
-                <h3>Pizza 4 Saisons</h3>
-                <p>Tomates, mozzarella, champignons, olives, poivrons, oignons</p>
-            </div>
+            <h2>Contactez-nous</h2>
+            <form action="" method="post">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required><br>
+                <label for="prenom">Prénom:</label>
+                <input type="text" id="prenom" name="prenom" required><br>
+                <label for="rue">Nom de la rue:</label>
+                <input type="text" id="rue" name="rue" required><br>
+                <label for="numero">Numéro de la rue:</label>
+                <input type="text" id="numero" name="numero" required><br>
+                <label for="cp">Code postal:</label>
+                <input type="text" id="cp" name="cp" required><br>
+                <label for="tel">Numéro de téléphone:</label>
+                <input type="tel" id="tel" name="tel" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <input type="submit" value="Envoyer">
+            </form>
             
         </section>
-        <h4>Pour commander en ligne veuillez cliquer sur commander en ligne </h4>
-        <a href="commande.html">Commandez-ici en ligne</a>
-        <h4>Desirez-vous faire une reservation? cliquez sur reserver</h4>
-        <a href="reservation.html">Reserver</a>
     </main>
     <footer>
         <div class="footer-content">
             <div class="footer-section">
                 <h3>Contactez-nous</h3>
                 <p>270 boulevard du plateau,Gatineau,Quebec</p>
-                <p>Email: dialloibrahima870@outlook.com</p>
+                <p>Email:dialloibrahima870@outlook.com</p>
             </div>
             <div class="footer-section">
                 <h3>Suivez-nous</h3>
@@ -67,7 +71,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2024 Restaurant a pizza. Tous droits réservés.</p>
+            <p>© 2024 Restaurant a pizza . Tous droits réservés.</p>
             <p ><a href="https://github.com/Ibrahime22/Projet_site_Web" class="git" target="_blank">Voir sur github</a></p>
         </div>
     </footer>
