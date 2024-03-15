@@ -43,14 +43,14 @@ header {
 
 
 
-
-
-
-
-
-
 .git{
     color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.git:hover{
+    color: rgba(255, 127, 80, 0.807);
 }
 nav {
     background-color: #20056c;
@@ -184,11 +184,13 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .footer-section {
     flex: 1;
     margin: 10px;
+    text-align: center;
 }
 
 .footer-section h3 {
