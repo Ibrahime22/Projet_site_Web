@@ -10,7 +10,7 @@ body{
 }
 .banner{
     min-height: 100vh;
-    background-color: #0171d3;
+    background-color: #20056c;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +61,7 @@ form input[type = text], form input[type = number], form input::placeholder, sel
     color: #000;
 }
 button{
-    background-color: #0171d3;
+    background-color: #20056c;
     color: #ffff;
     transition: all 0.3s ease;
     cursor: pointer;
